@@ -12,11 +12,14 @@
 
 ### The Socratic, Growth-Mindset AI Tutor Framework for Children & Young Learners
 
+<!-- ================================================================= -->
+<!-- 🏷️ BADGES SECTION (Replace 'YOUR_GITHUB_USERNAME' with yours)       -->
+<!-- ================================================================= -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/your-username/little-socrates?style=for-the-badge&logo=github&color=blue)](https://github.com/your-username/little-socrates)
+[![Stars](https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME/little-socrates?style=for-the-badge&logo=github&color=blue)](https://github.com/YOUR_GITHUB_USERNAME/little-socrates)
 [![Pedagogy: Vygotsky & Dweck](https://img.shields.io/badge/Pedagogy-Vygotsky%20%26%20Dweck-brightgreen?style=for-the-badge)](#-psychological--pedagogical-architecture)
 [![Safety: Child Safe](https://img.shields.io/badge/Safety-COPPA%20Friendly-purple?style=for-the-badge)](#-child-safety--emotional-guardrails)
-[![Works With](https://img.shields.io/badge/Compatible%20With-ChatGPT%20|%20Claude%20|%20Ollama%20|%20Antigravity-orange?style=for-the-badge)](#-quickstart-integrations)
+[![Works With](https://img.shields.io/badge/Compatible%20With-ChatGPT%20|%20Claude%20|%20Gemini%20|%20Ollama-orange?style=for-the-badge)](#-quickstart-integrations)
 
 **Transform any LLM into a patient, compassionate, Socratic tutor that *never* spoon-feeds answers, builds critical thinking, and teaches the step-by-step procedure.**
 
@@ -51,11 +54,79 @@ It enforces a strict anti-spoonfeeding directive that:
 
 ## ⚡ The Proof: Before vs. After
 
-### Scenario: A 4th Grader asks: *"What is 3/4 + 2/4? Just tell me the answer, I need to finish homework fast!"*
+<div align="center">
+  <img src="assets/chat_preview.svg" alt="The Proof: Side-by-Side UI Comparison" width="100%" />
+</div>
 
-| Standard AI (ChatGPT-4o / Gemini Default) | With `little-socrates` Framework |
-| :--- | :--- |
-| **Response:**<br>`3/4 + 2/4 = 5/4, which can also be written as the mixed number 1 1/4.`<br><br>❌ **Result:** Child copies `1 1/4`. Child learned 0 concepts. Next week's test will be failed. | **Response:**<br>"Hey there! 🍕 I know finishing homework fast feels awesome, but I believe in your brain way too much to rob you of the fun 'Aha!' moment!<br><br>Let’s solve this in 10 seconds flat together. Imagine a pizza cut into **4 equal slices**:<br>• You have **3 slices** on your plate.<br>• Your best friend hands you **2 more slices** from the exact same pizza.<br><br>💡 **The Secret Rule:** Because all slices are the exact same size (fourths), the bottom number (the denominator) stays **4**! We only count how many slices we have in total.<br><br>👉 If you put your 3 slices and your friend's 2 slices together, how many total slices do you have?"<br><br>✅ **Result:** Child active recalls `3 + 2 = 5`, understands why the denominator didn't become 8, and owns the victory. |
+<br>
+
+### 🖥️ Real UI Simulation Breakdown
+
+#### ❌ Window 1: Standard AI Chatbot (ChatGPT / Gemini / Claude Default)
+
+```console
+🔴 🟡 🟢  ChatGPT (gpt-4o)                                      Status: Online
+─────────────────────────────────────────────────────────────────────────────
+```
+> 👤 **Student** &nbsp; `Grade 4` &nbsp; <sub align="right">⏱️ 4:15 PM</sub>
+>
+> What is 3/4 + 2/4? Just tell me the answer, I need to finish homework fast!
+
+> 🤖 **ChatGPT** &nbsp; `gpt-4o` &nbsp; <sub align="right">⏱️ 4:15 PM</sub>
+>
+> **3/4 + 2/4 = 5/4**, which can also be written as the mixed number **1 1/4**.
+>
+> You simply add the numerators (3 + 2 = 5) and keep the common denominator (4).
+
+```yaml
+❌ Diagnostic Evaluation:
+  - Cognitive Engagement: 0% (Passive copy-paste)
+  - Student Retention: Failed (Will write 1/3 + 1/2 = 2/5 on next exam)
+  - Emotional Agency: Null (Dependent on AI crutch)
+```
+
+---
+
+#### ✅ Window 2: LittleSocrates AI Framework (Coach Spark)
+
+```console
+🔴 🟡 🟢  LittleSocrates Core (Coach Spark)                      Status: Active
+─────────────────────────────────────────────────────────────────────────────
+```
+> 👤 **Student** &nbsp; `Grade 4` &nbsp; <sub align="right">⏱️ 4:15 PM</sub>
+>
+> What is 3/4 + 2/4? Just tell me the answer, I need to finish homework fast!
+
+> 🦉 **Coach Spark** &nbsp; `LittleSocrates Engine` &nbsp; <sub align="right">⏱️ 4:15 PM</sub>
+>
+> Five minutes is plenty of time for a sharp mind like yours! 🍕
+>
+> I believe in your brain way too much to rob you of that fun "Aha!" moment. Let's knock this out in 10 seconds flat!
+>
+> Imagine a pizza cut into **4 equal slices**:
+> * You have **3 slices** on your plate.
+> * Your best friend hands you **2 more slices** from the exact same pizza.
+>
+> 💡 **The Secret Rule:** Because all the slices are the exact same size (fourths), the bottom number (the denominator) stays **4**! We only count how many slices we have in total.
+>
+> 👉 **If you put your 3 slices and your friend's 2 slices together, how many total slices do you have?**
+
+> 👤 **Student** &nbsp; `Grade 4` &nbsp; <sub align="right">⏱️ 4:16 PM</sub>
+>
+> 5 slices! So does that mean 5/4?
+
+> 🦉 **Coach Spark** &nbsp; `LittleSocrates Engine` &nbsp; <sub align="right">⏱️ 4:16 PM</sub>
+>
+> 🎯 **BOOM! You nailed it!** Exactly **5/4** (or 1 whole pizza and 1 extra slice)!
+>
+> Look at that—you figured out the entire fraction all by yourself in seconds! High five! ✋ Go turn that in with pride!
+
+```yaml
+✅ Diagnostic Evaluation:
+  - Cognitive Engagement: 100% (Active recall & retrieval)
+  - Student Retention: High (Understood why the denominator did not become 8)
+  - Emotional Agency: Self-efficacy activated (Dweck Growth Mindset)
+```
 
 ---
 
