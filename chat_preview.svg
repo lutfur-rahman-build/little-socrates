@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%" style="background:#0b0f19; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Gradients & Shadows -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="socratesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Banner Header -->
+  <text x="600" y="45" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" letter-spacing="1">THE REAL-WORLD PROOF: SIDE-BY-SIDE UI COMPARISON</text>
+  <text x="600" y="70" text-anchor="middle" fill="#94a3b8" font-size="14">What happens when a 4th grader asks: "What is 3/4 + 2/4? Just tell me the answer!"</text>
+
+  <!-- ================= LEFT WINDOW: STANDARD AI ================= -->
+  <g transform="translate(40, 95)" filter="url(#shadow)">
+    <!-- Window Body -->
+    <rect width="530" height="540" rx="14" fill="#1e293b" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.4"/>
+    
+    <!-- Titlebar -->
+    <rect width="530" height="42" rx="14" fill="#0f172a"/>
+    <rect y="30" width="530" height="12" fill="#0f172a"/>
+    <circle cx="24" cy="21" r="6" fill="#ef4444"/>
+    <circle cx="42" cy="21" r="6" fill="#eab308"/>
+    <circle cx="60" cy="21" r="6" fill="#22c55e"/>
+    
+    <text x="265" y="26" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="600">Standard AI (ChatGPT / Gemini Default)</text>
+    <rect x="420" y="11" width="92" height="20" rx="10" fill="#ef4444" fill-opacity="0.2"/>
+    <text x="466" y="25" text-anchor="middle" fill="#fca5a5" font-size="11" font-weight="700">❌ NO LEARNING</text>
+
+    <!-- Student Message Bubble -->
+    <rect x="150" y="65" width="355" height="60" rx="12" fill="#3b82f6"/>
+    <text x="165" y="88" fill="#ffffff" font-size="13" font-weight="500">What is 3/4 + 2/4? Just tell me the</text>
+    <text x="165" y="108" fill="#ffffff" font-size="13" font-weight="500">answer, I need to finish homework fast!</text>
+    <text x="495" y="140" text-anchor="end" fill="#64748b" font-size="11">Student • 4:15 PM</text>
+
+    <!-- AI Bot Message Bubble -->
+    <rect x="25" y="160" width="410" height="90" rx="12" fill="#334155"/>
+    <text x="40" y="186" fill="#f8fafc" font-size="13" font-weight="600">3/4 + 2/4 = 5/4, which can also be</text>
+    <text x="40" y="206" fill="#f8fafc" font-size="13" font-weight="600">written as the mixed number 1 1/4.</text>
+    <text x="40" y="232" fill="#94a3b8" font-size="12">You add 3 + 2 = 5 and keep the denominator 4.</text>
+    <text x="25" y="266" fill="#64748b" font-size="11">🤖 Default LLM • 4:15 PM</text>
+
+    <!-- Consequence Card -->
+    <rect x="25" y="300" width="480" height="210" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="45" y="330" fill="#f87171" font-size="14" font-weight="700">⚠️ Cognitive &amp; Academic Outcome:</text>
+    
+    <text x="45" y="365" fill="#e2e8f0" font-size="13">• <tspan font-weight="bold">Zero Neural Engagement:</tspan> Child copied the number instantly.</text>
+    <text x="45" y="395" fill="#e2e8f0" font-size="13">• <tspan font-weight="bold">Promotes Cheating:</tspan> Teaches reliance on AI as a crutch.</text>
+    <text x="45" y="425" fill="#e2e8f0" font-size="13">• <tspan font-weight="bold">Guaranteed Exam Failure:</tspan> Child didn't understand why the</text>
+    <text x="55" y="445" fill="#cbd5e1" font-size="12">  denominator didn't become 8 (4 + 4). Next week: 1/3 + 1/2 = 2/5.</text>
+    
+    <rect x="45" y="468" width="440" height="28" rx="6" fill="#ef4444" fill-opacity="0.15"/>
+    <text x="265" y="487" text-anchor="middle" fill="#ef4444" font-size="12" font-weight="700">RETENTION RATE: 0% • INDEPENDENCE: DESTROYED</text>
+  </g>
+
+  <!-- ================= RIGHT WINDOW: LITTLE SOCRATES ================= -->
+  <g transform="translate(630, 95)" filter="url(#shadow)">
+    <!-- Window Body -->
+    <rect width="530" height="540" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.5"/>
+    
+    <!-- Titlebar -->
+    <rect width="530" height="42" rx="14" fill="#0f172a"/>
+    <rect y="30" width="530" height="12" fill="#0f172a"/>
+    <circle cx="24" cy="21" r="6" fill="#ef4444"/>
+    <circle cx="42" cy="21" r="6" fill="#eab308"/>
+    <circle cx="60" cy="21" r="6" fill="#22c55e"/>
+    
+    <text x="265" y="26" text-anchor="middle" fill="#a7f3d0" font-size="13" font-weight="600">LittleSocrates AI Framework (Coach Spark)</text>
+    <rect x="410" y="11" width="102" height="20" rx="10" fill="#10b981" fill-opacity="0.2"/>
+    <text x="461" y="25" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="700">✅ ACTIVE LEARNING</text>
+
+    <!-- Student Prompt Bubble -->
+    <rect x="150" y="55" width="355" height="46" rx="10" fill="#3b82f6"/>
+    <text x="165" y="75" fill="#ffffff" font-size="12" font-weight="500">What is 3/4 + 2/4? Just tell me the answer!</text>
+    <text x="495" y="112" text-anchor="end" fill="#64748b" font-size="10">Student • 4:15 PM</text>
+
+    <!-- Coach Spark Response Bubble -->
+    <rect x="25" y="125" width="480" height="155" rx="12" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+    <text x="40" y="148" fill="#a7f3d0" font-size="12" font-weight="700">🦉 Coach Spark:</text>
+    <text x="40" y="170" fill="#f8fafc" font-size="12">"I believe in your brain way too much to rob you of the fun 'Aha!' moment! 🍕</text>
+    <text x="40" y="192" fill="#f8fafc" font-size="12">Imagine a pizza cut into <tspan fill="#34d399" font-weight="bold">4 equal slices</tspan>:</text>
+    <text x="40" y="212" fill="#f8fafc" font-size="12">• You have <tspan fill="#60a5fa" font-weight="bold">3 slices</tspan> on your plate.</text>
+    <text x="40" y="232" fill="#f8fafc" font-size="12">• Your friend hands you <tspan fill="#60a5fa" font-weight="bold">2 more slices</tspan> from the same size pizza.</text>
+    <text x="40" y="256" fill="#fde047" font-size="12" font-weight="bold">👉 If you put 3 and 2 together, how many total slices do you have?"</text>
+
+    <!-- Student Active Answer -->
+    <rect x="330" y="295" width="175" height="38" rx="10" fill="#3b82f6"/>
+    <text x="345" y="318" fill="#ffffff" font-size="12" font-weight="bold">"5 slices! So 5/4?"</text>
+    <text x="495" y="345" text-anchor="end" fill="#64748b" font-size="10">Student • 4:16 PM</text>
+
+    <!-- Coach Spark Celebration -->
+    <rect x="25" y="360" width="480" height="85" rx="12" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+    <text x="40" y="385" fill="#fef08a" font-size="13" font-weight="bold">🎯 BOOM! Exactly 5/4! High five! ✋</text>
+    <text x="40" y="408" fill="#ecfdf5" font-size="12">Look how easy that was! You solved the whole fraction in 10 seconds.</text>
+    <text x="40" y="428" fill="#a7f3d0" font-size="11">Your brain just leveled up its math powers today! 🚀</text>
+
+    <!-- Success Card Footer -->
+    <rect x="25" y="465" width="480" height="52" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+    <text x="265" y="488" text-anchor="middle" fill="#34d399" font-size="12" font-weight="700">RETENTION RATE: 100% • CONFIDENCE: SKY-HIGH</text>
+    <text x="265" y="505" text-anchor="middle" fill="#94a3b8" font-size="11">Vygotsky Scaffolding Applied • Zero Cheating • Child Felt The Win</text>
+  </g>
+</svg>
