@@ -13,10 +13,10 @@
 ### The Socratic, Growth-Mindset AI Tutor Framework for Children & Young Learners
 
 <!-- ================================================================= -->
-<!-- 🏷️ BADGES SECTION (Replace 'YOUR_GITHUB_USERNAME' with yours)       -->
+<!-- 🏷️ BADGES SECTION      -->
 <!-- ================================================================= -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME/little-socrates?style=for-the-badge&logo=github&color=blue)](https://github.com/YOUR_GITHUB_USERNAME/little-socrates)
+[![Stars](https://img.shields.io/github/stars/lutfur-rahman-build/little-socrates?style=for-the-badge&logo=github&color=blue)](https://github.com/lutfur-rahman-build/little-socrates)
 [![Pedagogy: Vygotsky & Dweck](https://img.shields.io/badge/Pedagogy-Vygotsky%20%26%20Dweck-brightgreen?style=for-the-badge)](#-psychological--pedagogical-architecture)
 [![Safety: Child Safe](https://img.shields.io/badge/Safety-COPPA%20Friendly-purple?style=for-the-badge)](#-child-safety--emotional-guardrails)
 [![Works With](https://img.shields.io/badge/Compatible%20With-ChatGPT%20|%20Claude%20|%20Gemini%20|%20Ollama-orange?style=for-the-badge)](#-quickstart-integrations)
